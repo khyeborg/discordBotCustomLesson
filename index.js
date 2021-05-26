@@ -13,4 +13,4 @@ function handleMessage(message) {
     if (message.content.startsWith(prefix) == false) return;
     // Add your own code HERE!
 }
-client.login(config.token);
+client.login(config.token)
